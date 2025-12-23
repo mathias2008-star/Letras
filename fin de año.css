@@ -1,0 +1,29 @@
+body {
+    font-family: ALGERIAN;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(150, 12, 12);
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    color: rgb(36, 11, 151);
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(127, 16, 192);
+}
+
+body {
+    background-image: url('exm.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}

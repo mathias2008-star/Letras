@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar mayúsculas y minúsculas</title>
+    <link rel="stylesheet" href="fin de año.css">
+    <script type="text/javascript" src="fn.js"></script>
+   
+</head>
+<body>
+    <h1>Menú Principal</h1>
+
+    <div id="menu">
+        <img src="mayus.jpg" alt="Mayúsculas a Minúsculas" width="200" style="cursor:pointer;" onclick="mostrarMayusAMinus()">
+
+        <img src="minus.avif" alt="Minúsculas a Mayúsculas" width="200" style="cursor:pointer;" onclick="mostrarMinusAMayus()">
+        <br><br>
+         
+    </div>
+
+    <div id="mayusAMinus" style="display:none;">
+    <h2>Mayúsculas a Minúsculas</h2>
+    <input type="text" id="textoMayus" placeholder="Escribe algo en mayúsculas">
+    <br><br>
+    <img src="images.gif" alt="Convertir" width="100" style="cursor:pointer;" onclick="convertirMayusAMinus()">
+    <br><br>
+    <img src="volver.png" alt="Volver al Menú" width="50" style="cursor:pointer;" onclick="volverMenu('mayusAMinus')">
+    <p id="resultadoMayus"></p>
+</div>
+
+
+    <div id="minusAMayus" style="display:none;">
+    <h2>Minúsculas a Mayúsculas</h2>
+    <input type="text" id="textoMinus" placeholder="Escribe algo en minúsculas">
+    <br><br>
+    <img src="images.gif" alt="Convertir" width="100" style="cursor:pointer;" onclick="convertirMinusAMayus()">
+    <br><br>
+    <img src="volver.png" alt="Volver al Menú" width="50" style="cursor:pointer;" onclick="volverMenu('minusAMayus')">
+    <p id="resultadoMinus"></p>
+</div>
+
+
+</body>
+</html>
